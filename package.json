@@ -1,0 +1,26 @@
+{
+  "name": "email-breach-api",
+  "version": "1.0.0",
+  "description": "a simple node js server that takes an email or phone parameter and lets you know if it as been in a data breach",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jazzcelaya/data-breach-api.git"
+  },
+  "author": "jazzcelaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jazzcelaya/data-breach-api/issues"
+  },
+  "homepage": "https://github.com/jazzcelaya/data-breach-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "10.19.0"
+  }
+}
